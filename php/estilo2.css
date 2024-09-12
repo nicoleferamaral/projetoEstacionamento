@@ -1,0 +1,232 @@
+
+body{
+  background: rgb(255,255,255);
+  background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(253,146,45,1) 100%);
+  height: auto;
+}
+.index{
+  width: 100%;
+  height: 1000px;
+}
+header{
+    background-color: #000;
+    width: 100%;
+    height: 100px;
+}
+
+h2{
+  text-align: center;
+  align-items: center;
+}
+
+#relatorio{
+  width: 300px;
+  height: 800px;
+  float: left;
+  margin-top: 30px;
+  margin-left: 70px;
+  text-align: center;
+  border: 4px solid #000;
+}
+
+h1{
+    text-align: center;
+        font: 700 4em/1 "Oswald", sans-serif;
+        letter-spacing: 0;
+        padding: .25em 0 .325em;
+        display: block;
+        margin: 0 auto;
+        text-shadow: 0 0 80px white;
+  
+  /* Clip Background Image */
+  
+        background: url(https://i.ibb.co/RDTnNrT/animated-text-fill.png) repeat-y;
+        -webkit-background-clip: text;
+        background-clip: text;
+  
+  /* Animate Background Image */
+  
+        -webkit-text-fill-color: transparent;
+        -webkit-animation: aitf 80s linear infinite;
+  
+  /* Activate hardware acceleration for smoother animations */
+  
+        -webkit-transform: translate3d(0,0,0);
+        -webkit-backface-visibility: hidden;
+  
+    }
+  
+  /* Animate Background Image */
+  
+  @-webkit-keyframes aitf {
+      0% { background-position: 0% 50%; }
+      100% { background-position: 100% 50%; }
+  }
+
+form{
+    text-align: center;
+    margin-bottom: 20px;
+    border: 4px solid #000;
+    padding-top: 15px;
+}
+
+
+/* BOTÃO */
+
+.imprimir{
+  background-color: #f9a21f;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+  margin-left: 680px;
+}
+.imprimir1{
+  background-color: #f9a21f;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+  align-items: center;
+}
+#um{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 200px;
+
+}
+.inicial{
+    margin: 5px 70px;
+}
+button {
+    margin: 20px;
+    text-align: center;
+
+  }
+  .btn1{
+    float: right;
+  }
+
+  .custom-btn {
+    text-align: center;
+    width: 150px;
+    height: 50px;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 25px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+     box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+     7px 7px 20px 0px rgba(0,0,0,.1),
+     4px 4px 5px 0px rgba(0,0,0,.1);
+    outline: none;
+  }
+
+  .btn-9 {
+    border: none;
+    transition: all 0.3s ease;
+    overflow: hidden;
+  }
+  .btn-9:after {
+    position: absolute;
+    content: " ";
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+     background-color: #f9a21f;
+  background-image: linear-gradient(315deg, #f9bf1f 0%, #fe6021 74%);
+    transition: all 0.3s ease;
+  }
+  .btn-9:hover {
+    background: transparent;
+    box-shadow:  4px 4px 6px 0 rgba(255,255,255,.5),
+                -4px -4px 6px 0 rgba(116, 125, 136, .2), 
+      inset -4px -4px 6px 0 rgba(255,255,255,.5),
+      inset 4px 4px 6px 0 rgba(116, 125, 136, .3);
+    color: #fff;
+  }
+  .btn-9:hover:after {
+    -webkit-transform: scale(2) rotate(180deg);
+    transform: scale(2) rotate(180deg);
+    box-shadow:  4px 4px 6px 0 rgba(255,255,255,.5),
+                -4px -4px 6px 0 rgba(116, 125, 136, .2), 
+      inset -4px -4px 6px 0 rgba(255,255,255,.5),
+      inset 4px 4px 6px 0 rgba(116, 125, 136, .3);
+  }
+
+ #entrada{
+  text-align: center;
+ }
+
+ article{
+  text-align: center;
+  float: left;
+ }
+
+ .nav-link{
+  color: white;
+ }
+
+
+.login{
+  margin-top: 150px;
+  margin-bottom: 230px;
+}
+
+
+/* Radio Button */
+
+input[type='radio'] {
+  display: none;
+
+}
+
+.radio-container label {
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+
+}
+
+.custom-radio {
+  border: 1px solid black
+  ;
+  width: 40px;
+  height: 40px;
+  display: grid;
+  place-content: center;
+  border-radius: 50%;
+  margin-left: 730px;
+  margin-bottom: 10px;
+}
+
+.custom-radio,
+span {
+  transition: 0.5s ease;
+  color: black;
+}
+
+.custom-radio span {
+  content: '';
+  width: 23px;
+  height: 23px;
+  background: black;
+  border-radius: 50%;
+}
+
+input[type='radio']:checked + .custom-radio {
+  border-color: darkorange;
+}
+
+input[type='radio']:checked + .custom-radio span {
+  background: darkorange;
+}
+
+ 
+
